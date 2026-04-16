@@ -42,5 +42,10 @@ namespace PolySpatial.Samples
             var randomObject = Random.Range(0, m_ObjectsToSpawn.Count);
             Instantiate(m_ObjectsToSpawn[randomObject], m_SpawnPosition.position, Quaternion.identity);
         }
+
+        public void YKTrySpawn(int index)
+        {
+            Instantiate(m_ObjectsToSpawn[index], m_SpawnPosition.position, Quaternion.identity);
+        }
     }
 }
