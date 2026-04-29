@@ -27,7 +27,7 @@ namespace PolySpatial.Samples
         {
             var isSelected = pointer != ManipulationInputManager.k_Deselected;
             selectingPointer = pointer;
-            m_MeshRenderer.material = isSelected ? m_SelectedMat : m_DefaultMat;
+            //m_MeshRenderer.material = isSelected ? m_SelectedMat : m_DefaultMat;
             m_RigidBody.isKinematic = isSelected;
         }
     }
