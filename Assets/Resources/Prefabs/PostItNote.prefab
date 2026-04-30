@@ -31,11 +31,10 @@ RectTransform:
   m_GameObject: {fileID: 1036758730093320470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.063}
-  m_LocalScale: {x: 0.00004074905, y: 0.00063885975, z: 0.00063885987}
+  m_LocalScale: {x: 0.00004459169, y: 0.0006991043, z: 0.0006991044}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6373506059027225807}
-  - {fileID: 6048895851544096492}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -189,7 +188,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6048895851544096492}
   m_Father: {fileID: 4387019425348737553}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -398,7 +398,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4387019425348737553}
+    m_TransformParent: {fileID: 6373506059027225807}
     m_Modifications:
     - target: {fileID: 2023072299727504307, guid: 03243d7de242d473f8233119105724fd, type: 3}
       propertyPath: m_Pivot.x
@@ -487,18 +487,6 @@ PrefabInstance:
     - target: {fileID: 2023072300928042465, guid: 03243d7de242d473f8233119105724fd, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
-      objectReference: {fileID: 0}
-    - target: {fileID: 8076903085071024475, guid: 03243d7de242d473f8233119105724fd, type: 3}
-      propertyPath: m_Color.b
-      value: 0.892756
-      objectReference: {fileID: 0}
-    - target: {fileID: 8076903085071024475, guid: 03243d7de242d473f8233119105724fd, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8076903085071024475, guid: 03243d7de242d473f8233119105724fd, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8076903085071024475, guid: 03243d7de242d473f8233119105724fd, type: 3}
       propertyPath: m_Enabled
